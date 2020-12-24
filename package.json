@@ -1,0 +1,26 @@
+{
+  "homepage": "https://github.com/anthousecode/fifteen-game-test",
+  "name": "fifteengame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "gh-pages": "^3.1.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "push-dir": "^0.4.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0"
+  }
+}
